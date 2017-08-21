@@ -21,7 +21,7 @@
 	%>	
 		<%
 		for(LeagueBean league : list){
-			/*out.print(league.getTitle());*/
+			
 		%>
 		<h2><%=league.toString() %></h2>
 		<%
